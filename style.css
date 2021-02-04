@@ -5,6 +5,18 @@ body
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+p
+{
+    margin: 0;
+}
+
 .container
 {
     background-color: #eeeeee;
@@ -20,6 +32,19 @@ body
     padding: 10px;
     width: calc(50% - 20px);
     height: calc(50% - 20px);
+    color: white;
+}
+
+.corner.top.left
+{
+    background-color: burlywood;
+}
+
+.corner.bottom.left
+{
+    background-color: cornflowerblue;
+    bottom: 0;
+    left: 0;
 }
 
 .corner.bottom.right
@@ -27,29 +52,13 @@ body
     bottom: 0;
     right: 0;
     text-align: right;
-}
-
-.corner:nth-child(1)
-{
-    background-color: burlywood;
-    color: 
-    white;
-}
-
-.corner:nth-child(2)
-{
     background-color: teal;
-    color: white;
 }
 
-h1
+.right.top.corner
 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-weight: 400;
-}
-
-p
-{
-    margin: 0;
+    background-color: thistle;
+    top: 0;
+    right: 0;
+    text-align: right;
 }
